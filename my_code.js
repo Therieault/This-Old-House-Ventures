@@ -36,7 +36,7 @@ function addTens(spot) {
       var span = document.createElement('span');
       item.appendChild(span);
       var list = document.querySelector("ol");
-      span.appendChild(document.createTextNode(tensArray[spot] + oneThroughNine[i]));
+      span.appendChild(document.createTextNode(tensArray[spot] + " " + oneThroughNine[i]));
       list.appendChild(item);
     }
   }
